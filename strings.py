@@ -6,6 +6,12 @@ print('We can even include "quotes" in strings')
 print('Hello' + ' World') 
 
 greeting = "Hello"
-name = input("Please enter your name ")
+name = "Amen"
 
 print(greeting + " " + name)
+
+age = 29
+print(age)
+
+print(type(name))
+print(type(age))
