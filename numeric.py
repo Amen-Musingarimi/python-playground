@@ -15,5 +15,5 @@ print(a % b)  #0 modulo: the remainder after integer division
 
 print()
 
-for i in range(1, 4):
+for i in range(1, a // b):  # a / b returns an an error because it returns a float number after division
   print(i)
