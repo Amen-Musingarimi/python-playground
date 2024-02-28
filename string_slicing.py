@@ -10,3 +10,7 @@ print(parrot[10:]) #Blue
 
 print(parrot[:6] + parrot[6:])  
 print(parrot[:])
+
+print("------Slicing using negative indexing------")
+print(parrot[-4:2]) #This doesn't print anything because slice can't go backwards from the starting value(index)
+print(parrot[-4: -2])
