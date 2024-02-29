@@ -18,3 +18,9 @@ print(string1 + string2 + string3 + string4 + string5)
 print("Hello " * 5)
 
 print("hello " * 5 + '4') 
+
+today = "friday"
+print("day" in today) #true
+print("fri" in today) #true
+print("thur" in today) #false
+print("parrot" in "fjord") #false
