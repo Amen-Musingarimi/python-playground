@@ -16,3 +16,5 @@ print(string1 + string2 + string3 + string4 + string5)
 
 #Strings can also be multiplied in python
 print("Hello " * 5)
+
+print("hello " * 5 + '4') 
