@@ -14,3 +14,7 @@ print(parrot[:])
 print("------Slicing using negative indexing------")
 print(parrot[-4:2]) #This doesn't print anything because slice can't go backwards from the starting value(index)
 print(parrot[-4: -2])
+
+print("------Using a step in a slice------")
+print(parrot[0:6:2]) # Nre
+print(parrot[0:6:3]) # Nw
