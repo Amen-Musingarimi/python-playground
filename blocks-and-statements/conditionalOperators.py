@@ -8,6 +8,12 @@ if guess != answer:
     print("Please guess higher.")
   else:
     print("Please guess lower.")
+  if guess == answer:
+    print("Well done, you guessed it right.")
+  else:
+    print("Sorry you have not guessed correctly.")
+else:
+  print("You got it first time.")
 
 
 # if guess < answer:
