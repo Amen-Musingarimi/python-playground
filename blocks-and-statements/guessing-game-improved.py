@@ -1,6 +1,7 @@
 import random
 
 highest = 10
+chances = 5
 answer = random.randint(1, highest)
 print(answer)
 print("Please guess a number between 1 and {}: ".format(highest))
@@ -17,6 +18,16 @@ while guess != answer:
   else:
       if guess < answer:
         print("Your guess is too low. Please guess higher.")
+        chances = chances - 1
+        print("{} remaining chances.".format(chances))
+        if chances < 1:
+           print("Game Over! You lost the game.")
+           break
       else:
         print("Your guess is too high. Please guess lower.")
+        chances = chances - 1
+        print("{} remaining chances.".format(chances))
+        if chances < 1:
+           print("Game Over! You lost the game.")
+           break
    
