@@ -9,6 +9,9 @@ guess = 0 # Initialize to any number that doesn't equal the answer.
 while guess != answer:
   guess = int(input())
 
+  if guess == 0:
+    break
+
   if guess == answer:
       print("Well done, you guessed it right.")
   else:
