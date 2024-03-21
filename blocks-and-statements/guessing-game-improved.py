@@ -18,14 +18,16 @@ while guess != answer:
   else:
       if guess < answer:
         print("Your guess is too low. Please guess higher.")
-        chances = chances - 1
+        # chances = chances - 1
+        chances -= 1
         print("{} remaining chances.".format(chances))
         if chances < 1:
            print("Game Over! You lost the game.")
            break
       else:
         print("Your guess is too high. Please guess lower.")
-        chances = chances - 1
+        # chances = chances - 1
+        chances -= 1
         print("{} remaining chances.".format(chances))
         if chances < 1:
            print("Game Over! You lost the game.")
