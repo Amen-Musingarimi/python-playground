@@ -11,5 +11,8 @@ choosen_exit = ""
 
 while choosen_exit not in available_exits:
   choosen_exit = input("Please choose a direction: ")
+  if choosen_exit == "quit":
+    print("Game Over!")
+    break
 
 print("Aren't you glad you got out of there?")
