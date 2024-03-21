@@ -11,6 +11,8 @@ while True:
     if choice == 0:
         print("Exiting the program...")
         break
+    elif choice > 5 or choice < 0:
+        continue
         
     else:
         print("Good luck, you can go {}".format(menu_list[choice - 1]))
