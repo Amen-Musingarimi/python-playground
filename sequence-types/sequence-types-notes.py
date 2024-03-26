@@ -16,3 +16,10 @@
   #5 tuple
   #6 frozenset
   #7 bytes
+
+# A mutable object is the one whose value can be changed. 
+# Python has the following mutable objects
+  #1 List
+  #2 Dict
+  #3 Set
+  #4 Bytearray
