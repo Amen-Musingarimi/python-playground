@@ -6,3 +6,8 @@ print(max(even))
 
 print(min(odd))
 print(max(odd))
+
+# len() returns the number of items in a list
+print('-' * 80)
+print(len(even))
+print(len(odd))

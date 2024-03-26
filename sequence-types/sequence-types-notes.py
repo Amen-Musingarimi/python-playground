@@ -23,3 +23,6 @@
   #2 Dict
   #3 Set
   #4 Bytearray
+
+# Methods on list
+# len() returns the number of items in a list
