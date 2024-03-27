@@ -21,8 +21,8 @@ while current_choice != "0":
 
     else:
         print("Please add options from the list below:")
-        for part in available_parts:
-            print("{0}: {1}".format(available_parts.index(part) + 1, part))
+        for index, part in enumerate(available_parts, start=1):
+            print("{0}: {1}".format(index, part))
 
     current_choice = input()
 

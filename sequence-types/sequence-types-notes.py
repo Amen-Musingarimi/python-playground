@@ -27,3 +27,4 @@
 # Operations that can be performed on mutable objects
   # len() returns the number of items in a list
   # append is used to add a new item to a list
+  # enumerate returns each item, with its index position
