@@ -11,5 +11,10 @@ print(numbers)
 
 digits = "432985617"
 # print(sorted(digits)) # sorted(digits) - returns a new list of sorted numbers as strings just like as the original
+# print(list(digits)) # list(digits) - returns a list of items but without being reordered or sorted.
 
-print(list(digits)) # list(digits) - returns a list of items but without being reordered or sorted.
+more_numbers = list(numbers)
+print(more_numbers)
+
+print(numbers is more_numbers) # Checks if the two variables(lists) are the same in terms of identity not contents. Returns True/False
+print(numbers == more_numbers) # Checks if the two variables are the same in terms of contents not identity.
