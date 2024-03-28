@@ -36,3 +36,4 @@
   # Note that we cannot pass the sort() method to a variable as it will return Note e.g sorted_numbers = numbers.sort() - this will return None
   # Please note that when using the sorted() function it will start with the white spaces and  then the capital letters. 
   # To solve the capital letters issue we use the key method e.g key=str.casefold then the capital letters will be sorted just like other letters
+  # sorted() and list() boths returns a list however the returned list for sorted() will be sorted while for list() will not be sorted.
