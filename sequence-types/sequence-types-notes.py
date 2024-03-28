@@ -28,3 +28,12 @@
   # len() returns the number of items in a list
   # append is used to add a new item to a list
   # enumerate returns each item, with its index position
+  # the sort method sorts the items in a list either ascending or descending order using the reverse and 
+  # Note that the sort method does not mutate the list
+  # The sorted() function can be used to sort any iterables e.g strings and lists
+  # The sorted function returns the list containing all letters in order
+  # The difference between the sort and sorted functions is that the sort method alters the given iterable while the sorted function returns a new iterable
+  # Note that we cannot pass the sort() method to a variable as it will return Note e.g sorted_numbers = numbers.sort() - this will return None
+  # Please note that when using the sorted() function it will start with the white spaces and  then the capital letters. 
+  # To solve the capital letters issue we use the key method e.g key=str.casefold then the capital letters will be sorted just like other letters
+  # sorted() and list() boths returns a list however the returned list for sorted() will be sorted while for list() will not be sorted.
