@@ -29,3 +29,6 @@
   # append is used to add a new item to a list
   # enumerate returns each item, with its index position
   # the sort method sorts the items in a list either ascending or descending order using the reverse and 
+  # Note that the sort method does not mutate the list
+  # The sorted() function can be used to sort any iterables e.g strings and lists
+  # The sorted function returns the list containing all letters in order
