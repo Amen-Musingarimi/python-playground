@@ -18,3 +18,6 @@ print(more_numbers)
 
 print(numbers is more_numbers) # Checks if the two variables(lists) are the same in terms of identity not contents. Returns True/False
 print(numbers == more_numbers) # Checks if the two variables are the same in terms of contents not identity.
+
+some_more_numbers = numbers.copy() # Create a copy of the numbers variable. Therefore creating a copy of the list
+print(some_more_numbers)
