@@ -6,3 +6,12 @@ print(letters)
 numbers = [2.3, 4.5, 8.7, 3.1, 9.2, 1.6]
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
+
+missing_letter = sorted("The quick brown fox jumped over the lazy dog", key=str.casefold)
+print(missing_letter)
+
+names = ["Graham", "John", "terry", "eric", "Terry", "michael"]
+names.sort() # Note this will start with the names with Capital Letters and end with those with small letters
+print(names)
+names.sort(key=str.casefold)
+print(names)
