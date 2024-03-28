@@ -28,3 +28,4 @@
   # len() returns the number of items in a list
   # append is used to add a new item to a list
   # enumerate returns each item, with its index position
+  # the sort method sorts the items in a list either ascending or descending order using the reverse and 
