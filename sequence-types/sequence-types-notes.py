@@ -42,4 +42,4 @@
   # A tuple is a mathematical name for an ordered set of data
   # Tuples are another sequence type along with strings, lists, and ranges
   # Tuples differ from lists because they are immutable. They can't be changed once they are created, just like strings
-  
+  # A tuple will be in paretheses and a list in square brackets. 
