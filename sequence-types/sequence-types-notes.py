@@ -43,3 +43,4 @@
   # Tuples are another sequence type along with strings, lists, and ranges
   # Tuples differ from lists because they are immutable. They can't be changed once they are created, just like strings
   # A tuple will be in paretheses and a list in square brackets. 
+  # Indexing a tuple works the same as indexing a list
