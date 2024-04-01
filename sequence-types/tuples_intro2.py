@@ -8,3 +8,5 @@ print(metallica)
 print(metallica[0])
 print(metallica[1])
 print(metallica[2])
+
+# metallica[0] = "Master of Puppets" - This returns an error because tuples are immutable
