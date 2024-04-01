@@ -37,3 +37,10 @@
   # Please note that when using the sorted() function it will start with the white spaces and  then the capital letters. 
   # To solve the capital letters issue we use the key method e.g key=str.casefold then the capital letters will be sorted just like other letters
   # sorted() and list() boths returns a list however the returned list for sorted() will be sorted while for list() will not be sorted.
+
+# TUPLES
+  # A tuple is a mathematical name for an ordered set of data
+  # Tuples are another sequence type along with strings, lists, and ranges
+  # Tuples differ from lists because they are immutable. They can't be changed once they are created, just like strings
+  # A tuple will be in paretheses and a list in square brackets. 
+  # Indexing a tuple works the same as indexing a list
