@@ -10,10 +10,10 @@ menu = [
 ]
 
 for meal in menu:
-  print(meal)
+  # print(meal)
   for index in range(len(meal) -1, -1, -1):
     if meal[index] == "spam":
       del meal[index]
 
-print(menu)
+  print(meal)
 
