@@ -8,3 +8,14 @@ menu = [
   ["spam", "sausage", "spam", "bacon", "spam", "tomato", "spam"],
   ["spam", "egg", "spam", "spam", "bacon", "spam"]
 ]
+
+for meal in menu:
+  if "spam" not in meal:
+    # Printing meals without the item "spam"
+    print(meal)
+
+    for item in meal:
+      print(item)
+    
+  else:
+    print("{0} has a spam score of {1}".format(meal, meal.count("spam")))
