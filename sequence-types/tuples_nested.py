@@ -12,3 +12,7 @@ print(len(albums))
 for album in albums:
   name, artist, year = album
   print("Album: {}, Artist: {}, Year: {}".format(name, artist, year))
+
+print("------------------Unpacking in a for loop------------------------")
+for name, artist, year in albums:
+  print("Album: {}, Artist: {}, Year: {}".format(name, artist, year))
