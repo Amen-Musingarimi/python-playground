@@ -10,5 +10,5 @@ albums = [
 print(len(albums))
 
 for album in albums:
-
+  name, artist, year = album
   print("Album: {}, Artist: {}, Year: {}".format(name, artist, year))
