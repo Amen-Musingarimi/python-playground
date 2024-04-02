@@ -10,3 +10,6 @@ print(metallica[1])
 print(metallica[2])
 
 # metallica[0] = "Master of Puppets" - This returns an error because tuples are immutable
+
+metallica2 = list(metallica)
+print(metallica2)
