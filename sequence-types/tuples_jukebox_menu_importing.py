@@ -34,6 +34,8 @@ albums = [
      ]),
 ]
 
+SONGS_LIST = 3  # This is a Python convention of defining Constants. A constant mustn't be changed.
+
 while True:
     print("Please choose your album (Invalid choice exits).")
     for index, (title, artist, year, songs) in enumerate(albums):
@@ -43,5 +45,5 @@ while True:
     #     print("{}: {} by {} released in {}".format(index + 1, title, artist, year, songs))
     choice = int(input())
     if 1 <= choice <= len(albums):
-        songs_list = albums[choice - 1][3]
+        songs_list = albums[choice - 1][SONGS_LIST]
     break
