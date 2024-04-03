@@ -41,4 +41,7 @@ while True:
     # for index, album in enumerate(albums):
     #     title, artist, year, songs = album
     #     print("{}: {} by {} released in {}".format(index + 1, title, artist, year, songs))
+    choice = int(input())
+    if 1 <= choice <= len(albums):
+        songs_list = albums[choice - 1][3]
     break
