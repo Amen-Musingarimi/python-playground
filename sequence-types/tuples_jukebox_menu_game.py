@@ -40,8 +40,22 @@ while True:
         print(index + 1, album[0])
 
     choice = int(input("Enter the number of your choice: "))
-    print(choice)
-    if choice < 1 or choice > (len(albums)):
+    if choice < 1 or choice > len(albums):
         print("Invalid choice. Exiting...")
         break
+
+    chosen_album = albums[choice - 1]
+    print(f"You've chosen '{chosen_album[0]}' by {chosen_album[1]} released in {chosen_album[2]}")
+    
+    print("Please choose a song:")
+    for index, song in enumerate(chosen_album[3]):
+        print(index + 1, song[1])
+    
+    song_choice = int(input("Enter the number of your choice: "))
+    if song_choice < 1 or song_choice > len(chosen_album[3]):
+        print("Invalid choice. Exiting...")
+        break
+    
+    chosen_song = chosen_album[3][song_choice - 1]
+    print(f" '{chosen_song[1]}' is now playing.")
 
