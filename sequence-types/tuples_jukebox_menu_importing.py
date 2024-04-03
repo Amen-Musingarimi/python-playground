@@ -34,7 +34,8 @@ albums = [
      ]),
 ]
 
-SONGS_LIST = 3  # This is a Python convention of defining Constants. A constant mustn't be changed.
+SONGS_LIST_INDEX = 3  # This is a Python convention of defining Constants. A constant mustn't be changed.
+SONG_TITLE_INDEX = 1
 
 while True:
     print("Please choose your album (Invalid choice exits).")
@@ -45,5 +46,19 @@ while True:
     #     print("{}: {} by {} released in {}".format(index + 1, title, artist, year, songs))
     choice = int(input())
     if 1 <= choice <= len(albums):
-        songs_list = albums[choice - 1][SONGS_LIST]
-    break
+        songs_list = albums[choice - 1][SONGS_LIST_INDEX]
+    else:
+        break
+
+    print("Please choose your song: ")
+    for index, (track_number, song) in enumerate(songs_list):
+        print("{}: {}".format(index + 1, song))
+
+    song_choice = int(input())
+    if 1 < song_choice <= len(songs_list):
+        title = songs_list[song_choice][SONG_TITLE_INDEX]
+    else:
+        break
+
+    print("Playing {}".format(title))
+    print("=" * 40)
