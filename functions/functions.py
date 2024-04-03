@@ -3,4 +3,5 @@ def multiply():
     return result
 
 
-print(multiply())
+answer = multiply()
+print(answer)
