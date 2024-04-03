@@ -36,9 +36,9 @@ albums = [
 
 while True:
     print("Please choose your album (Invalid choice exits).")
-    # for index, (title, artist, year, songs) in enumerate(albums):
+    for index, (title, artist, year, songs) in enumerate(albums):
+        print("{}: {}".format(index + 1, title))
+    # for index, album in enumerate(albums):
+    #     title, artist, year, songs = album
     #     print("{}: {} by {} released in {}".format(index + 1, title, artist, year, songs))
-    for index, album in enumerate(albums):
-        title, artist, year, songs = album
-        print("{}: {} by {} released in {}".format(index + 1, title, artist, year, songs))
     break
