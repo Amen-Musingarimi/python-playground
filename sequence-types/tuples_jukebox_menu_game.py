@@ -34,6 +34,14 @@ albums = [
      ]),
 ]
 
+while True:
+    print("Please choose your album (Invalid choice exits):")
+    for index, album in enumerate(albums):
+        print(index + 1, album[0])
 
-for index, album in enumerate(albums):
-    print(index + 1, album[0])
+    choice = int(input("Enter the number of your choice: "))
+    print(choice)
+    if choice < 1 or choice > (len(albums)):
+        print("Invalid choice. Exiting...")
+        break
+
