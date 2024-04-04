@@ -3,7 +3,7 @@ import random
 
 def get_integer(prompt):
     while True:
-        temp = input("Please enter a valid number: ")
+        temp = input(prompt)
         if temp.isnumeric():
             return int(temp)
 
@@ -16,7 +16,7 @@ print("Please guess a number between 1 and {}: ".format(highest))
 guess = 0  # Initialize to any number that doesn't equal the answer.
 
 while guess != answer:
-    guess = int(input())
+    guess = get_integer(": ")
 
     if guess == 0:
         break
