@@ -1,5 +1,13 @@
 import random
 
+
+def get_integer(prompt):
+    while True:
+        temp = input("Please enter a valid number: ")
+        if temp.isnumeric():
+            return int(temp)
+
+
 highest = 10
 chances = 5
 answer = random.randint(1, highest)
@@ -32,4 +40,3 @@ while guess != answer:
             if chances < 1:
                 print("Game Over! You lost the game.")
                 break
-
