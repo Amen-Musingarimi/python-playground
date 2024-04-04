@@ -4,4 +4,6 @@ def multiply(a, b):
 
 
 answer = multiply(4, 2)
+answer2 = multiply(10.5, 4)
 print(answer)
+print(answer2)
