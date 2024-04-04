@@ -6,8 +6,9 @@ def get_integer(prompt):
         temp = input(prompt)
         if temp.isnumeric():
             return int(temp)
-        else:
-            print("Invalid! This is not a number. Enter a valid number.")
+        # else:
+        #     print("Invalid! This is not a number. Enter a valid number.")
+        print("Invalid! This is not a number. Enter a valid number.")
 
 
 highest = 10
