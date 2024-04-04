@@ -6,6 +6,9 @@ def is_palindrome(string):
     return backwards == string
 
 
-answer = is_palindrome("Takudzwa")
-print(answer)
+word = input("Please enter a word to check: ")
 
+if is_palindrome(word):
+    print("'{}' is a palindrome.".format(word))
+else:
+    print("'{}' is not a palindrome.".format(word))
