@@ -9,6 +9,8 @@ def get_integer(prompt):
         # else:
         #     print("Invalid! This is not a number. Enter a valid number.")
         print("Invalid! This is not a number. Enter a valid number.")
+        # Note that the else statement is not necessary since we only reach the print()
+        # line when the prompt is not an integer
 
 
 highest = 10
