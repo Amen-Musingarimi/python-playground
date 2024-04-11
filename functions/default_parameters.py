@@ -1,4 +1,4 @@
-def calc_rectangle_area(length=15, width=10):
+def calc_rectangle_area(length: float = 15, width: float = 10) -> float:
     area = length * width
     return area
 

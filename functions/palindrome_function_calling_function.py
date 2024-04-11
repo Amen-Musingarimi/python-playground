@@ -1,10 +1,10 @@
-def is_palindrome(string):
+def is_palindrome(string: str) -> bool:
     backwards = string[::-1]
     print(backwards)
     return backwards.lower() == string.lower()
 
 
-def is_palindrome_sentence(sentence):
+def is_palindrome_sentence(sentence: str) -> bool:
     string = ""
     for char in sentence:
         if char.isalnum():
