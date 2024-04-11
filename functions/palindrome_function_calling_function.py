@@ -4,7 +4,7 @@ def is_palindrome(string: str) -> bool:
     return backwards.lower() == string.lower()
 
 
-def is_palindrome_sentence(sentence):
+def is_palindrome_sentence(sentence: str) -> bool:
     string = ""
     for char in sentence:
         if char.isalnum():

@@ -1,4 +1,4 @@
-def fibonacci(n):
+def fibonacci(n: int) -> int:
     """Return the `n`th Fibonacci number, for positive `n`."""
     if 0 <= n <= 1:
         return n
