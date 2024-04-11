@@ -14,3 +14,5 @@ def fibonacci(n):
     return result
 
 
+for i in range(36):
+    print(i, fibonacci(i))
