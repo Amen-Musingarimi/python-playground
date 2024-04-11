@@ -17,3 +17,22 @@
 # Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only
 # necessary to complete the is_leap function.
 
+def is_leap(year):
+    leap = False
+
+    # Write your logic here
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        leap = False
+    return leap
+
+
+year = int(input())
+print(is_leap(year))
