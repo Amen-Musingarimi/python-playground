@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198fe601-4fc9-46a0-ab33-dcab09fb3e5d" name="Changes" comment="Import albums data from another file">
-      <change beforePath="$PROJECT_DIR$/functions/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/palindrome_function_calling_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/palindrome_function_calling_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.loop-string-challenge">
-    <configuration name="default_parameters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.fibonacci">
+    <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/default_parameters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.loop-string-challenge" />
         <item itemvalue="Python.leap-year" />
         <item itemvalue="Python.if-else" />
         <item itemvalue="Python.guessing_game" />
-        <item itemvalue="Python.default_parameters" />
       </list>
     </recent_temporary>
   </component>
