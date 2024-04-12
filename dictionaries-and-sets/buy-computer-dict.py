@@ -7,4 +7,11 @@ available_parts = {
     "6": "hdmi cable"
 }
 
-print(available_parts)
+current_choice = None
+while current_choice != "0":
+    if current_choice in available_parts:
+        # Note that `in` checks for the keys in the dictionary not the values.
+        chosen_part = available_parts[current_choice]
+        print(f"Adding {chosen_part}")
+
+    current_choice = input("> ")
