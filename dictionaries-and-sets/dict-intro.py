@@ -17,3 +17,7 @@ print(commuter)
 
 learner = vehicles.get('er5')
 print(learner)
+
+# Iterating over a dictionary
+for key in vehicles:
+    print(key, vehicles[key], sep=', ')
