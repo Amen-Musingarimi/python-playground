@@ -1,4 +1,4 @@
-vehicles ={
+vehicles = {
     'dream': 'Honda 250T',
     'roadster': 'BMW R1100',
     'er5': 'Kawasaki ER5',
