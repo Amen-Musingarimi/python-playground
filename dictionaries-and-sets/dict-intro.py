@@ -24,6 +24,10 @@ vehicles['learjet'] = 'Bombardier Learjet 75'
 vehicles['toy'] = 'Glider'
 print(vehicles)
 
+# Changing item values in a dictionary
+# Updating the Virago
+vehicles['virago'] = 'Yamaha XV535'
+
 # Iterating over a dictionary
 for key in vehicles:
     print(key, vehicles[key], sep=', ')
