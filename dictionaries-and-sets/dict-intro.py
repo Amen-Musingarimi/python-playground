@@ -28,6 +28,16 @@ print(vehicles)
 # Updating the Virago
 vehicles['virago'] = 'Yamaha XV535'
 
+# Deleting items from a dictionary
+del vehicles['starfighter']
+
+# Deleting items from a dictionary using the pop() method. The pop method deletes an item from the dictionary but it
+# will return an error if you try and delete a non-existing item. To avoid the error we have to pop() method a
+# default value e.g vehicles.pop('f1', None).
+vehicles.pop('f1', None)
+# Setting a default message when the item does not exist
+vehicles.pop('subaru', 'not present')
+
 # Iterating over a dictionary
 for key in vehicles:
     print(key, vehicles[key], sep=', ')
