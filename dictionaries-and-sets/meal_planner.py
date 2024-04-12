@@ -19,4 +19,7 @@ while True:
         break
     elif choice in display_dict:
         selected_item = display_dict[choice]
-        print(selected_item)
+        print(f"You have selected {selected_item}")
+        print("Checking Ingredients")
+        ingredients = recipes[selected_item]
+        print(ingredients)
