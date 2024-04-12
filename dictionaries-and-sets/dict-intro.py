@@ -11,3 +11,9 @@ vehicles = {
 
 my_car = vehicles['fiesta']
 print(my_car)
+
+commuter = vehicles['virago']
+print(commuter)
+
+learner = vehicles.get('er5')
+print(learner)
