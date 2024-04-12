@@ -23,3 +23,9 @@ while True:
         print("Checking Ingredients")
         ingredients = recipes[selected_item]
         print(ingredients)
+
+        for food_item in ingredients:
+            if food_item in pantry:
+                print(f"\t{food_item} OK")
+            else:
+                print(f"\tYou don't have necessary ingredient: {food_item}")
