@@ -18,6 +18,17 @@ print(commuter)
 learner = vehicles.get('er5')
 print(learner)
 
+# Adding items to a dictionary
+vehicles['starfighter'] = 'Lockheed F-104'
+vehicles['learjet'] = 'Bombardier Learjet 75'
+vehicles['toy'] = 'Glider'
+print(vehicles)
+
 # Iterating over a dictionary
 for key in vehicles:
     print(key, vehicles[key], sep=', ')
+
+print("*" * 60)
+
+for key, value in vehicles.items():
+    print(key, value, sep=', ')
