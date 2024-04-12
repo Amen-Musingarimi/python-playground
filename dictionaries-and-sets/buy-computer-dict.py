@@ -8,6 +8,7 @@ available_parts = {
 }
 
 current_choice = None
+computer_parts = {}
 while current_choice != "0":
     if current_choice in available_parts:
         # Note that `in` checks for the keys in the dictionary not the values.

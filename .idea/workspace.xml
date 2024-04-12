@@ -36,7 +36,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.buy_computer_improved">
+  <component name="RunManager" selected="Python.buy-computer-dict">
     <configuration name="buy-computer-dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.buy_computer_improved" />
         <item itemvalue="Python.buy-computer-dict" />
+        <item itemvalue="Python.buy_computer_improved" />
         <item itemvalue="Python.dict-intro" />
         <item itemvalue="Python.fizz-buzz-challenge" />
         <item itemvalue="Python.fibonacci" />
