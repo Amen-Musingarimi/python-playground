@@ -1,10 +1,15 @@
 from content import pantry, recipes
 
-cart_items = []
+shopping_list = []
 
 
-def add_items_to_cart(item: dict):
-    cart_items.append(item)
+def add_shopping_item(item: dict):
+    """
+    Add a dictionary containing an item and its required quantity to the `shopping` list
+    :param item: A `dict` containing food item name and quantity required
+    :return: The `shopping list` containing some `dictionaries`.
+    """
+    shopping_list.append(item)
 
 
 display_dict = {}
@@ -39,7 +44,5 @@ while True:
                 quantity_to_buy = required_quantity - quantity_in_pantry
                 print(f"Your recipe needs {required_quantity} of {food_item}")
                 print(f"\tYou need to buy {quantity_to_buy} of {food_item}")
-                add_items_to_cart({food_item: quantity_to_buy})
-
-
-print(cart_items)
+                add_shopping_item({food_item: quantity_to_buy})
+                print(shopping_list)
