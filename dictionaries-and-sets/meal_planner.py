@@ -1,15 +1,17 @@
 from content import pantry, recipes
 
-shopping_list = []
 
-
-def add_shopping_item(item: dict):
+def add_shopping_item(data: dict, item: str, amount: int) -> None:
     """
     Add a dictionary containing an item and its required quantity to the `shopping` list
-    :param item: A `dict` containing food item name and quantity required
-    :return: The `shopping list` containing some `dictionaries`.
+    :param amount: An `int` representing quantity of food items
+    :param data: A `dict` of shopping items
+    :param item: A `string` of food item name
     """
-    shopping_list.append(item)
+    if item in data:
+        data[item] += amount
+    else:
+        data[item] = amount
 
 
 display_dict = {}
@@ -17,6 +19,8 @@ for index, key in enumerate(recipes):
     # print(index, key)
     display_dict[str(index + 1)] = key
 # print(display_dict)
+
+shopping_list = {}
 
 while True:
     # Display a menu of the recipes  we know how to cook
@@ -43,8 +47,7 @@ while True:
             else:
                 quantity_to_buy = required_quantity - quantity_in_pantry
                 print(f"\tYou need to buy {quantity_to_buy} of {food_item}")
-                add_shopping_item({food_item: quantity_to_buy})
-                print(shopping_list)
+                add_shopping_item(shopping_list, food_item, quantity_to_buy)
 
-for shopping_item in shopping_list:
-    print(f"You need to but the following ingredients for your recipe: {shopping_item}")
+for shopping_item in shopping_list.items():
+    print(shopping_item)
