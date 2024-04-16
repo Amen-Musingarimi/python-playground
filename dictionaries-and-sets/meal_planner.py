@@ -1,5 +1,12 @@
 from content import pantry, recipes
 
+cart_items = []
+
+
+def add_items_to_cart(item: dict):
+    cart_items.append(item)
+
+
 display_dict = {}
 for index, key in enumerate(recipes):
     # print(index, key)
@@ -32,3 +39,7 @@ while True:
                 quantity_to_buy = required_quantity - quantity_in_pantry
                 print(f"Your recipe needs {required_quantity} of {food_item}")
                 print(f"\tYou need to buy {quantity_to_buy} of {food_item}")
+                add_items_to_cart({food_item: quantity_to_buy})
+
+
+print(cart_items)
