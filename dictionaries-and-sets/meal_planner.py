@@ -42,7 +42,9 @@ while True:
                 print(f"\t{food_item} OK")
             else:
                 quantity_to_buy = required_quantity - quantity_in_pantry
-                print(f"Your recipe needs {required_quantity} of {food_item}")
                 print(f"\tYou need to buy {quantity_to_buy} of {food_item}")
                 add_shopping_item({food_item: quantity_to_buy})
                 print(shopping_list)
+
+for shopping_item in shopping_list:
+    print(f"You need to but the following ingredients for your recipe: {shopping_item}")
