@@ -6,12 +6,13 @@ def letter_counter(text: str) -> None:
     """
     counted_characters = []
     for character in text:
-        if character not in counted_characters:
-            count = text.count(character)
-            counted_characters.append(character)
-            print(f"Character: {character} appears {count}")
+        char = character.casefold()
+        if char not in counted_characters and char.isalnum():
+            count = text.count(char.casefold())
+            counted_characters.append(char.casefold())
+            print(f"Character: {char} appears {count}")
 
     print(counted_characters)
 
 
-letter_counter("Amenae")
+letter_counter("Later in the course, you'll see how to use the collections Counter class.")
