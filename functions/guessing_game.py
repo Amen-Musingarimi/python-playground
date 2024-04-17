@@ -1,7 +1,7 @@
 import random
 
 
-def get_integer(prompt):
+def get_integer(prompt) -> int:
     """
     Get an integer from Standard Input (stdin).
     The function will continue looping, and prompting
