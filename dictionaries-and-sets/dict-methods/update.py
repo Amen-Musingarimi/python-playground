@@ -26,3 +26,4 @@ print(pantry_items)
 d.update(enumerate(pantry_items))
 for key, value in d.items():
     print(f"{key}: {value}")
+    
