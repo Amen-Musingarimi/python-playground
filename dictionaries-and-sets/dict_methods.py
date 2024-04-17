@@ -13,3 +13,8 @@ d = {
 
 pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
 
+# THE fromkeys() METHOD: ----------------------------------- fromkeys() is method that creates a new dictionary with
+# keys from a provided iterable and assigns each key a default value. is useful when you want to initialize a
+# dictionary with a predefined set of keys, all having the same initial value.
+new_dict = dict.fromkeys(pantry_items)
+print(new_dict)
