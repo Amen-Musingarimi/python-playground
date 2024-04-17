@@ -12,3 +12,11 @@ print(v)
 
 print("four" in v)
 print("eleven" in v)
+
+keys = list(d.keys())
+values = list(d.values())
+
+if "four" in values:
+    index = values.index("four")
+    key = keys[index]
+    print(f"{d[key]} was found with the key {key}")
