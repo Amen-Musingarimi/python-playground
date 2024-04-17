@@ -1,3 +1,4 @@
 from data import d
 
-print(d)
+keys = d.keys()
+print(keys)
