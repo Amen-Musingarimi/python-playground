@@ -8,3 +8,7 @@ print(small_ints)
 # Removes the specified item from the set.
 small_ints.discard(10)
 print(small_ints)
+
+# Removes the specified item from the set.
+small_ints.remove(11)
+print(small_ints)
